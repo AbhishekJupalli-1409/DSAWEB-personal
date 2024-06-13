@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms_Demo</title>
+</head>
+
+<body>
+    <h1>Forms_demo</h1>
+    <form action="/tacos">
+
+        <!--After entering everything and then if you hit submit you will get this
+        file:///C:/tacos?username=Abhishek+Jupalli&Password=Abhishek%4009&color=%23e0cf1a&Enter_url=https%3A%2F%2Fwww.facebook.com%2F&Enter_Number=9490001283
+    dont worry about it we can deal with it later-->
+
+
+        <p>
+            <!--By using the name attribute it will take the value from us and submit to the databaase-->
+            <label for="username">Enter the username</label>
+            <input id="username" type="text" placeholder="username" name="username">
+            <!--or use name="q" nothing really matters-->
+        </p>
+
+        <p>
+            <label for="password">Enter the password</label>
+            <input id="password" type="password" placeholder="Password" name="Password">
+        </p>
+
+        <p>
+            <label for="color">select the colour</label>
+            <input id="color" type="color" name="color">
+        </p>
+
+        <p>
+            <label for="enterurl">Enter the url</label>
+            <input id="enterurl" type="url" placeholder="Enter_url" name="Enter_url">
+        </p>
+        <p>
+            <label for="enternumber">Enter any number</label>
+            <input id="enternumber" type="number" placeholder="Enter_Number" name="Enter_Number">
+        </p>
+        <button type="submit">Submit</button>
+        <button type="button">do not submit</button>
+    </form>
+
+
+    <hr>
+    <button>button outside the form</button>
+    <h2>Hijaking searches</h2>
+    <hr>
+
+    <h3>Search Youtube</h3>
+    <FORM action="https://www.youtube.com/results">
+        <p>
+            <label for="searchyoutube">Enter to search</label>
+            <input type="text" name="search_query" id="searchyoutube" placeholder="youtube Search">
+            <button>search youtube</button>
+        </p>
+    </FORM>
+
+    <h3>Search Google</h3>
+    <FORM action="https://www.google.com/search">
+        <p>
+            <label for="searchgoogle">Enter something to search on google</label>
+            <input type="text" name="q" id="searchgoogle" placeholder="Gooogle Search">
+
+            <button>search Google</button>
+        </p>
+    </FORM>
+
+    <h2>More Inputs</h2>
+    <form action="/birds">
+        <input type="checkbox" name="agree" id="agree">
+        <label for="agree">Agree for everthing1</label>
+        <button>submit</button>
+    </form>
+
+    <form action="/birdie">
+        <input type="checkbox" name="agree" id="agree" checked>
+        <label for="agree">Agree for everthing2</label>
+        <button>submit</button>
+    </form>
+
+    <h2>Radio buttons</h2>
+    <form action="/search">
+
+        <p>Select the category for which you belong<br>
+
+            <input type="radio" name="size" id="male" value="male">
+            <label for="male">male</label>
+            <input type="radio" name="size" id="female" value="female">
+            <label for="female">female</label>
+            <input type="radio" name="size" id="gay" value="gay">
+            <label for="gay">gay</label>
+        </p>
+        <button>submit</button>
+
+    </form>
+
+    <h2>Using select element</h2>
+    <form action="/yipee">
+        <label for="name">Select any one name</label>
+        <select name="search" id="name">
+            <option value=""></option>
+            <option value="Anvesh">Anvesh</option>
+            <option value="Abhishek">Abhishek</option>
+            <option value="Sai kiran">Sai kiran</option>
+            <option value="Madhu Kishore">Madhu Kishore</option>
+            <option value="Vamshi Karnipu">Vamshi Karnipu</option>
+            <option value="Vamshi Vardhan">Vamshi Vardhan</option>
+        </select>
+
+
+    </form>
+
+    <h2>Using range input n text area</h2>
+    <form action="/abhi">
+        <label for="biriyani"> amount of biriyani:</label>
+        <input name="biriyani_level" id="biriyani" type="range" min="1" max="100" value="66">
+        <!--setting the initial value of the level to 66 using value-->
+        <button>Submit</button>
+    </form>
+
+    <p>
+        <label for="requests">Any special requests</label>
+        <br>
+        <textarea name="request" id="requests" cols="30" rows="10" placeholder="enter requests"></textarea>
+    </p>
+
+    <h2>html validations</h2>
+    <form action="/valid">
+        <p>
+            <label for="firstname">Enter firstname</label>
+            <input name="firstname " type="text" id="firstname" required minlength="4" maxlength="20">
+        </p>
+        <p>
+            <label for="secondname">Enter secondname</label>
+            <input name="valid" type="text" id="secondname" minlength="4" maxlength="20" required>
+
+        </p>
+        <p>
+            <label for="email">Enter email</label>
+            <input type="email" placeholder="enter email" id="email" required>
+            <label for="url">Enter url</label>
+            <input type="url" placeholder="url" required>
+        </p>
+
+        <button>submit</button>
+    </form>
+
+
+</body>
+
+</html>
+
+</body>
+
+</html>

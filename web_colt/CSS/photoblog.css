@@ -1,0 +1,19 @@
+img{
+    width: 30%;
+    margin: 1.4%;
+}
+/* }
+30+30+30= 90 , so 10% space left we have to divide it evenly
+so 10% divided by 6(6 sides of margins for 3 photos)= 1.66== 1.4 is better */
+
+
+nav{
+    text-transform: capitalize;
+    border-bottom: 2px solid rgba(248, 209, 161, 0.97);
+    width: 40%;
+    margin-left: 1.4%;
+    padding: 15px 0px;
+    font-family: 'Caveat', cursive;
+font-family: 'Raleway', sans-serif;
+font-size: 24px;
+}

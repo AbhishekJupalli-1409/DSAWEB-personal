@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+
+<body>
+    <h1> Race Registration form</h1>
+    <form action="/abhi">
+        <div>
+            <label for="first">Enter first name</label>
+            <input type="text" id="first" placeholder="Enter firstname" name="race" required minlength="3"
+                maxlength="20">
+            <!--Required attribute is used to tell the user that is required definitely-->>
+        </div>
+        <div>
+            <label for="second">Enter secondname</label>
+            <input type="text" name="race" id="second" placeholder="Enter secondname" required minlength="3"
+                maxlength="20">
+        </div>
+        <div>
+            <p>select a option</p>
+
+            <input type="radio" id="radio1" value="race1" name="race" required>
+            <label for="radio1">400 meter race</label>
+        </div>
+        <div>
+
+            <input type="radio" name="race" id="radio2" value="race2" required>
+            <label for="radio2">800 meter race</label>
+        </div>
+        <div>
+
+            <input type="radio" name="race" id="radio3" value="race3" required>
+            <label for="radio3">Marathon</label>
+        </div>
+        <div>
+            <label for="email">Enter the email</label>
+            <input type="email" name="race" id="email" placeholder="Enter email" required>
+        </div>
+        <div>
+            <label for="password">Enter the password</label>
+            <input type="password" name="race" id="password" placeholder="Enter Password" required>
+        </div>
+        <br>
+        <div>
+
+            <label for="age">Select the age group</label>
+            <select name="race" id="age" required>
+                <option value=""></option>
+                <option value="10">10-17</option>
+                <option value="18">18-30</option>
+                <option value="31">31-50</option>
+            </select>
+        </div>
+        <P>
+            <button>Register</button>
+        </P>
+    </form>
+</body>
+
+</html>

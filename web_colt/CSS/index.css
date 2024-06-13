@@ -1,0 +1,22 @@
+h3{
+    color: lightblue;
+}
+
+button{
+    color: black;
+}
+
+p{
+    color: lightslategrey;
+}
+h2{
+    text-align: center;
+    font-weight: normal;
+    text-decoration: underline rgb(123, 95, 3)  ;
+    font-size: 30px;
+    font-family:  futura,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+P{
+    line-height: 2;
+    letter-spacing: 1px;
+}

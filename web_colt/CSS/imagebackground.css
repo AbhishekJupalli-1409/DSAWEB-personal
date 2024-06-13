@@ -1,0 +1,31 @@
+section{
+    width: 80%;
+    height: 800px;
+    background-image:  url(https://images.unsplash.com/photo-1678162115265-6a4e74a2b152?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80);
+    margin: 20px auto;
+    background-position: center;
+  
+}
+h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100px;
+}
+
+body{
+    font-family: 'Caveat', cursive;
+   
+    
+}
+p{
+    font-size: 25px;
+    
+}
+h2{
+    font-weight: 600;
+    font-size: 40px;
+}
+main{
+    width: 90%;
+    margin: 2px auto;
+}

@@ -1,0 +1,61 @@
+*{
+    background-color: #f8edeb;
+}
+button{
+    font-size: 30px;
+    background-color: #fcd5ce;
+}
+h1,h2{
+    color:  #ffb5a7;
+}
+
+
+.post a{
+    text-decoration: none;
+}
+#signup{
+background-color: #fec89a;   /*we are giving id selector,
+ which is more specific we can use specificity calculator to check this*/
+}
+span{
+    color: lightslategrey;
+}
+.tag{
+    background-color: yellowgreen;
+}
+
+h2+button{
+    font-size: 20px;
+    
+}
+footer>a{
+    color: #cdb4db;
+}
+input[type="password"]{
+    color: #fec89a;
+}
+.post a:hover{
+    text-decoration: underline;
+    color: crimson;
+}
+
+h2::first-letter{
+    color: red;
+}
+p::first-line{
+    color: rgb(218, 37, 218);
+}
+p::selection{
+    background-color: rgb(159, 157, 157);
+}
+
+
+.post button:hover{
+    color:  white;
+    background-color:rgb(72, 210, 72) ;
+}
+/*there a conflict between the above n below code due to specificity*/
+button:hover{
+    background-color: olive;
+    
+}

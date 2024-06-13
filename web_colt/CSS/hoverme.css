@@ -1,0 +1,25 @@
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: none;
+    color: #ffa260;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.277778s;
+
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+button:hover{
+    border-color: #f1ff5c;
+    columns: white;
+    box-shadow: 0 0.5em 0.5em -0.4em violet;
+    transform:translateY(-0.25em) ;
+cursor: pointer;
+}

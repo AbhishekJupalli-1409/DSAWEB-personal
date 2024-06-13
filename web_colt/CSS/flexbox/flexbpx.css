@@ -1,0 +1,93 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+/* #container:nth-of-type(1) {
+    background-color: #003049;
+    width: 90%;
+    height: 350px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; */
+    /* flex-direction: row;
+    justify-content: center;
+    justify-content: space-between; */
+    /* flex-direction: column;
+    /* justify-content: space-evenly;
+    flex-wrap: wrap; */ 
+    /* flex-direction: row;
+    justify-content: center;
+    align-items: flex-end; */
+    /* flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#container:nth-of-type(1) div{
+    width: 150px;
+    height: 150px;
+    font-size: 2.5em;
+    color: black;
+    text-align: center;
+    
+}
+
+#container:nth-of-type(1) DIV:nth-of-type(2){
+    height: 100px;
+}
+
+#container:nth-of-type(1) DIV:nth-of-type(4){
+    height: 300px;
+}
+#container:nth-of-type(1) DIV:nth-of-type(3){
+align-self: baseline;
+}
+#container:nth-of-type(1) DIV:nth-of-type(1){
+    flex-grow: 1;
+ } */
+
+
+ #container {
+    background-color: #003049;
+    width: 90%;
+    /* height: 350px; */
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+ #container div{
+        width: 150px;
+        height: 150px;
+        text-align: center;
+       flex-basis: 220px;
+       flex-grow: 1 ;
+       
+       
+       /* All of them are occupying equal space when u minimise the tab */
+    }
+ main{
+        width: 1000px;
+        height: 250px;
+        border: 2px solid black;
+        margin: 2px auto;
+        display: flex;
+    }
+main .sidebar{
+    background-color: bisque;
+    flex: 1 2 50px;
+}
+main .maincontent{
+    background-color: violet;
+    flex: 2 1 100px;
+}
